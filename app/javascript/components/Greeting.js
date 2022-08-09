@@ -10,6 +10,7 @@ const Greeting = () => {
   const handleClick = () => {
     dispatch(getGreeting());
   };
+  
 
   return (
     <div className="box">
