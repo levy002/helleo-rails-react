@@ -38,7 +38,6 @@ export function getGreeting() {
   };
 }
 
-
 const greetingsReducer = (state = initialState, action) => {
   switch (action.type) {
     case GET_GREETINGS_REQUEST:
